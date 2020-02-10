@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  position: fixed;
+  background: gainsboro;
+  top: 0px;
+  width: 100%;
+  padding: 5px 10px;
+  z-index: 99;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  position: absolute;
+  display: inline;
+  right: 10px;
+  top: 10px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a{
+  color: purple;
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav ul li a:hover{
+  color: mediumseagreen;
+}
+
+.container{
+  position: relative;
+  top: 50px;
+  width: 720px;
+  height: 2500px;
+}
+
+
+
+fieldset{
+  margin: 20px 0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.searchbar {
+  border: none;
+  position: relative;
+}
+.searchbar label{
+  display: block;
+  margin-bottom: 10px;
+}
+.searchbar input {
+  width: 400px;
+  height: 25px;
+  border: 1px solid silver;
+  border-radius: 3px;
+  padding: 3px;
+  margin-right: 3px;
+}
+.searchbar img {
+  position: absolute;
+  width: 25px;
+  border: 1px solid silver;
+  border-radius: 3px;
+  bottom: 10px;
+}
+.searchbar img:hover {
+  border: 3px solid mediumseagreen;
+}
+
+
+
+.tabulation {
+  border: 1px solid silver;
+  width: 325px;
+  height: 30px;
+  text-align: center;
+  margin-left: 12px;
+}
+.tabulation p{
+  display: inline;
+}
+.tab{
+  display: inline;
+  position: absolute;
+  padding: 0 10px;
+  background: none;
+  border: none;
+}
+.tab:hover{
+  background: mediumseagreen;
+  border-color: mediumseagreen;
+}
+.prev {
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-right: solid silver 1px;
+}
+.next {
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-left: solid silver 1px;
+}
+
+
+
+.results {
+  border: none;
+}
+.results ul{
+  list-style: none;
+  padding-left: 0;
+}
+.results li {
+  margin: 10px 0;
+}
+.date, .location {
+  color: gray;
+}
+.results a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  color: blue;
+}
+.results a:hover {
+  color: mediumseagreen;
+}
